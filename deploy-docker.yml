@@ -24,5 +24,5 @@
         name: decisoft
         image: "michelgm/decisoft:{{env.BUILD_NUMBER}}
         state: started
-        ports:
-          - 80:80
+        exposed_ports:
+           - 6360
