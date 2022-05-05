@@ -25,4 +25,4 @@
         image: "michelgm/decisoft:{{env.BUILD_NUMBER}}
         state: started
         ports:
-          - 0.0.0.0:8080:8080
+          - "80:80"
