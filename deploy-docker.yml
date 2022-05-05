@@ -25,4 +25,4 @@
         image: "michelgm/decisoft:{{env.BUILD_NUMBER}}
         state: started
         exposed_ports:
-           - 6360
+           - 6360:8080
