@@ -1,5 +1,5 @@
 ---
-- hosts: dev
+- hosts: nexus
   become: True
   tasks:
     - name: Install python pip
